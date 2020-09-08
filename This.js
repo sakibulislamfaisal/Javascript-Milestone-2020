@@ -40,3 +40,17 @@ student1.student2.value.call(student1);
 
 // called normal function it means global object
 // except custom object all the object are global
+// if a method inside a object and access the object value using this
+const obj1 = {
+  name: "faisal",
+  age: 20,
+  address: "Dhaka",
+  obj2: {
+    name: "sakib",
+    getMessage: function () {
+      console.log("Name is : ", this.name);
+    },
+  },
+};
+const obj3 = obj1.obj2.getMessage.bind(obj1); //store in variable otherwise it will not work
+obj3();
