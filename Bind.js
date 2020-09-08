@@ -19,7 +19,7 @@ const normalPerson = {
 
 //Bind are used when a method inside a object and this method will apply into another object .
 // it will return function so that it will store a new variable
-// similar method used in different object
+// similar method used in different objects
 
 // create another object
 const friendlyPerson = {
