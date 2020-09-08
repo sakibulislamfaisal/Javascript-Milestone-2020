@@ -10,3 +10,5 @@ This is absolutely learning  javascript core concept to Advance feature of javas
 6. Math
 7. Scope Variable
 8. Object
+9. Loop
+10. Function
