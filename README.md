@@ -12,3 +12,5 @@ This is absolutely learning  javascript core concept to Advance feature of javas
 8. Object
 9. Loop
 10. Function
+11. Hoisting
+12. Closure
