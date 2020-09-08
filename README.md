@@ -14,3 +14,7 @@ This is absolutely learning  javascript core concept to Advance feature of javas
 10. Function
 11. Hoisting
 12. Closure
+
+# Javascript Advanced Concept
+1. This Keyword
+2 . Bind , Call , Apply Method
