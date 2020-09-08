@@ -17,4 +17,6 @@ This is absolutely learning  javascript core concept to Advance feature of javas
 
 # Javascript Advanced Concept
 1. This Keyword
-2 . Bind , Call , Apply Method
+2 . Bind Method
+3. Call Method
+4. Apply Method
