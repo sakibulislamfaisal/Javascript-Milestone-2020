@@ -1,7 +1,7 @@
 // This a javascript keyword
 // it mainly follow four rules:
 // global , object , clear , new keyword rules
-// use strict used to avoid bad practice.
+// use strict used to avoid bad practices.
 
 //1. object rules
 const person = {
