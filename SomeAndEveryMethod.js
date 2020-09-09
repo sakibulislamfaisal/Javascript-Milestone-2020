@@ -9,6 +9,6 @@ arr.some((element, index, array) => {
 
 //when condition is false then it will return false and stop
 arr.every((element, index, array) => {
-  console.log(`Element : ${element}`);
+  console.info(`Element : ${element}`);
   return element === 2;
 });
