@@ -14,6 +14,8 @@ This is absolutely learning  javascript core concept to Advance feature of javas
 10. Function
 11. Hoisting
 12. Closure
+13.Ternary Operator
+14. Console(Developer)
 
 # Javascript Advanced Concept
 1. This Keyword
@@ -24,3 +26,17 @@ This is absolutely learning  javascript core concept to Advance feature of javas
 6. Inheritence
 7. Encapsulation
 8. Polymorphism
+
+# Javascript ES6 Features
+1. Template Literal
+2. Arrow Function
+3. Destructuring
+4. Spread Operator
+5. Rest Parameter
+6. Default Parameter
+7. Map , Filter , Find Method
+8. Reduce Method
+9. Some & Event Method
+10. Promises
+11. Async Await
+12. CallBack Function
