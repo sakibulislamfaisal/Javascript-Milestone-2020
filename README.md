@@ -20,3 +20,7 @@ This is absolutely learning  javascript core concept to Advance feature of javas
 2 . Bind Method
 3. Call Method
 4. Apply Method
+5. Class
+6. Inheritence
+7. Encapsulation
+8. Polymorphism
