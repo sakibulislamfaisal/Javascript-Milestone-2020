@@ -14,7 +14,7 @@ This is absolutely learning  javascript core concept to Advance feature of javas
 10. Function
 11. Hoisting
 12. Closure
-13.Ternary Operator
+13. Ternary Operator
 14. Console(Developer)
 
 # Javascript Advanced Concept
