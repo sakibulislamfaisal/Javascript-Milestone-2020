@@ -20,6 +20,6 @@ const friendlyPerson = {
 };
 console.log(friendlyPerson);
 normalPerson.chargeBill.apply(friendlyPerson, [2000, 500, 500]);
-normalPerson.chargeBill.apply(friendlyPerson, [2000, 500, 500]);
+//normalPerson.chargeBill.apply(friendlyPerson, [2000, 500, 500]);
 console.log(friendlyPerson.salary);
 console.log(normalPerson.salary);

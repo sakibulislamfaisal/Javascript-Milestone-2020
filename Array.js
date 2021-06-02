@@ -41,3 +41,14 @@ console.log("Remove Elements = ", spliceMethod, "The new value is = ", arr);
 const arr1 = [1, 2, 4, 5, 6];
 const joinArray = arr.concat(arr1);
 console.log("The Joining Array is = ", joinArray);
+
+//find Array Index of
+const arr4 = ["faisal", "rahim", "karim"];
+console.log(arr4);
+const inArray = arr4.indexOf("karim");
+console.log(inArray);
+
+//Search Item of an array
+const arr5 = [20, 2034, 49, 33, 44, 66, 43, 32];
+const result = arr5.findIndex((number) => number === 43);
+console.log(result);

@@ -26,3 +26,14 @@ console.log("Total value is : ", sumValue);
 // var num4 = 3;
 // const num5 = num3 + num4;
 // console.log("Number 5 value is : ", num5);
+
+//Lexical Scope
+function parentFunction() {
+  var a = 4;
+  function childFunction() {
+    var b = 5;
+    console.log("Child Function access Parent value: ", a + b);
+  }
+  childFunction();
+}
+parentFunction();

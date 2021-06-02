@@ -11,6 +11,7 @@ class Person {
   }
   getValue() {
     console.log("Call the parent class method");
+    console.log(`${this.name} was born in ${2013 - this.age}`);
   }
   static getStaticMethod() {
     console.log("call the static method");
@@ -20,6 +21,7 @@ class Teacher extends Person {
   // child class
   constructor(name, age, salary) {
     super(name, age); // call parent class property
+    // Person.call(this, name, age, salary); //this is also works instead of super
     this.salary = salary;
   }
 }

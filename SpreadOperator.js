@@ -6,5 +6,5 @@ console.log(arr);
 console.log(arr2);
 
 // if we add two array - before we use concat now this time used spread operator
-const arr3 = [...arr, ...arr2];
+const arr3 = ["rifat", ...arr, ...arr2];
 console.log(`After add two array : ${arr3}`);

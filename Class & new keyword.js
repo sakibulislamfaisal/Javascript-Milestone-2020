@@ -10,6 +10,8 @@ class Person {
   }
 }
 const Student = new Person("faisal", "rahman", 20000);
+const Student1 = new Person("saiful", "Islam", 10000);
 const Teacher = new Person("Rana", "Mahmud", 40000);
 console.log(Student);
+console.log(Student1);
 console.log(Teacher);

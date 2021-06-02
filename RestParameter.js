@@ -14,6 +14,7 @@ function add() {
   }
 }
 add("faisal", "rahman");
+add(6, 5);
 
 // In ES6 it is not working
 // const add = () => {

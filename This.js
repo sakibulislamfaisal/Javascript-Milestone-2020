@@ -1,6 +1,6 @@
 // This a javascript keyword
 // it mainly follow four rules:
-// global , object , clear , new keyword rules
+// global Context  , object , clear , new keyword rules
 // use strict used to avoid bad practices.
 
 //1. object rules
@@ -13,11 +13,13 @@ const person = {
 };
 person.msg();
 
-//2. Global means window
+//2.In browser Global object  means window object
+//if we use this keyword inside the function then it is global
+//if we use (use strict) then it is show undefined
 function hello() {
   console.log("Global value is : ", this);
 }
-hello();
+//hello();
 
 //3. clear rules
 const student1 = {
@@ -46,7 +48,7 @@ const obj1 = {
   age: 20,
   address: "Dhaka",
   obj2: {
-    name: "sakib",
+    name: "sakibul",
     getMessage: function () {
       console.log("Name is : ", this.name);
     },

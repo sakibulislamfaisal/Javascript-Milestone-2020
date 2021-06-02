@@ -1,7 +1,7 @@
 // Object means that contain several kinds of characteristics
 
 //1. Declare a person object
-const person = {
+/*const person = {
   id: 1,
   name: "faisal",
   age: 20,
@@ -35,4 +35,23 @@ const student = {
   age: [20, 22, 23],
 };
 console.log("Name value is : ", student.name[2]);
-console.log("Age value is : ", student.age[0]);
+console.log("Age value is : ", student.age[0]);*/
+
+var faisal = {
+  name: "faisal rahman",
+  age: "19",
+  address: "Dhaka",
+  job: "job-holder",
+  welcomeMsg: function () {
+    console.log("Hello I am method");
+  },
+};
+
+//access property using dot notation
+console.log(faisal);
+console.log(faisal.name, faisal.age);
+
+//access property using bracket notation
+console.log(faisal["name"]);
+faisal.status = "Bachelor";
+console.log("hi" + faisal.welcomeMsg());

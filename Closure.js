@@ -3,6 +3,7 @@
 //Closure
 function closureDemo() {
   // parent function
+  console.log("parent function");
   var num1 = 10;
   return function () {
     // child function called annonymous function
